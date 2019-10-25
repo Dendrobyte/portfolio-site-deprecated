@@ -1,0 +1,145 @@
+/* General styles */
+body {
+    background-image: url("../img/index/background.png");
+    background-attachment: fixed;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+#index-navbar {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.index-navbar-item {
+    font-family: Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.index-navbar-item:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px;
+    border-radius: 6px;
+}
+
+.index-navbar-item:active {
+    box-shadow: 0px 0px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+/* Top third */
+#top-third-container {
+    height: 40%;
+}
+
+.bubble-picture {
+    display: block;
+    width: 20%;
+    margin: auto;
+    padding: 50px;
+}
+
+h1.line {
+    font-size: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    background: -webkit-linear-gradient(green, white);
+    background: linear-gradient(green, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Mid third */
+
+#middle-third-container {
+    background-color: #191919;
+    padding: 2%;
+    box-shadow: 0 0 20px;
+}
+
+/* Bottom third */
+
+#bottom-third-title {
+    background-color: #7ad06c;
+    padding: 1% 1% 1% 2%;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 24px;
+    color: #cfcfcf;
+}
+
+#bottom-third-container {
+    background-color: #cfcfcf;
+    padding: 2%;
+}
+
+.section-left-column {
+    width: 48%;
+    float: left;
+}
+
+.col-divide {
+    content: "";
+    width: 8px;
+    height: 100%;
+    padding: auto;
+    float: left;
+    background-color: #191919;
+}
+
+.section-right-column {
+    width: 48%;
+    float: right;
+}
+
+#bottom-third-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Recent Posts */
+
+/* Form */
+.column-header {
+    width: 60%;
+    text-align: left;
+}
+
+.contact-form {
+    width: 80%;
+}
+
+.contact-form p {
+    margin: 0;
+    padding-top: 30px;
+}
+
+input,select,option {
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Comic Sans MS";
+}
+
+.half-text {
+    display: inline-block;
+}
+
+.wide-text {
+    width: 80%;
+}
+
+.form-inline {
+    display: inline;
+}
