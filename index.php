@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 
-    <?php include 'header.php'; ?>
+    <?php include 'includes/header.php'; ?>
     <!-- Load custom index page css. The other pages will be (much) more consistent in look and layout. -->
-    <link rel = "stylesheet" type = "text/css" href = "css/index_styles.css">
+    <link rel = "stylesheet" type = "text/css" href = "./css/index_styles.css">
 
 <body>
 
@@ -15,7 +15,7 @@
     </div>
 
     <div id = "top-third-container">
-        <img src = "img/profile_picture.png">
+        <img src = "./img/index/profile_circle.png" class = "bubble-picture">
         <h1 class = "line">Heya! I'm Mark</h1>
     </div>
 
@@ -60,9 +60,9 @@
         </div>
     </div>
 
-    <div id = "bottom-third-container">
+    <div id = "bottom-third-title">Stay Updated</div>
 
-        <div id = "bottom-third-title"></div>
+    <div id = "bottom-third-container">
 
         <div class = "section-left-column">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -84,17 +84,32 @@
             </div>
         </div>
 
+        <div class = "col-divide"></div>
+
         <div class = "section-right-column">
-            <p class = "column-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <form><!-- Don't forget to make this dynamic! See index_form.php and explain why it's not on git -->
-                <p>Name</p><input type = "text" class = "half-text">
-                <p>Email</p><input type = "text" class = "half-text">
+            <p class = "column-header">Want to reach out to me for whatever reason? Feel free to use the following form! Even if it's just to say hi, feel free to send a form on in.</p>
+            <form class = "contact-form">
+                <!-- Don't forget to make this dynamic! See index_form.php and explain why it's not on git -->
+                <span class = "form-inline">
+                    <p>Name</p>
+                    <input type = "text" class = "half-text" placeholder = "Mark Bacon">
+                    <p>Email</p>
+                    <input type = "text" class = "half-text" placeholder = "mbacon@m.net">
+                </span>
 
-                <p>I forget what's on the mockup lol</p><input type = "text" class = "wide-text">
+                <p>Reason</p>
+                <select name = "Reasons" placeholder = "What's this about?" class = "wide-text" >
+                    <option value="question">General Question</option>
+                    <option value="business">Business Inquiry</option>
+                    <option value="freelance">Hire for Editing</option>
+                    <option value="hello">Just saying hi!</option>
+                </select>
 
-                <p>Subject</p><input type = "dropdown">
+                <p>Subject</p>
+                <input type = "text" class = "wide-text">
 
-                <p>How Can I Help?</p><input type = "text" class = "long-text">
+                <p>How Can I Help?</p>
+                <input type = "text" class = "wide-text">
             </form>
         </div>
 
