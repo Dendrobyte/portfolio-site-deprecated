@@ -63,9 +63,33 @@ h1.line {
 /* Mid third */
 
 #middle-third-container {
-    background-color: #191919;
+    background-color: #cfcfcf;
     padding: 2%;
     box-shadow: 0 0 20px;
+}
+
+.mid-third-column {
+    width: 20%;
+    display: inline-block;
+    color: #1f1f1f;
+    font-family: Helvetica;
+    background-color: #7ad06c;
+    box-shadow: -4px 4px;
+    margin: 1%;
+    height: 200px;
+    padding: 10px;
+}
+
+.mid-third-column h2 {
+    text-align: center;
+}
+
+.mid-third-column ul {
+    text-align: left;
+}
+
+.mid-third-column li {
+    margin: 10px 0 10px 0;
 }
 
 /* Bottom third */
@@ -75,8 +99,9 @@ h1.line {
     padding: 1% 1% 1% 2%;
     font-family: Helvetica;
     font-weight: 600;
-    font-size: 24px;
-    color: #cfcfcf;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
 }
 
 #bottom-third-container {
@@ -89,13 +114,12 @@ h1.line {
     float: left;
 }
 
-.col-divide {
-    content: "";
-    width: 8px;
-    height: 100%;
-    padding: auto;
-    float: left;
-    background-color: #191919;
+.column-header {
+    padding: 1% 1% 1% 2%;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1f1f1f;
 }
 
 .section-right-column {
@@ -111,35 +135,156 @@ h1.line {
 
 /* Recent Posts */
 
-/* Form */
-.column-header {
-    width: 60%;
-    text-align: left;
+/* Recent Posts */
+.recent-box {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    background-color: #7ad06c;
+    border-radius: 4px;
+    box-shadow: -6px 6px;
+    padding: 8px;
 }
+
+.recent-posts-picture {
+    width: 29%;
+    float: left;
+    box-shadow: 0 0 4px #191919;
+}
+
+.recent-box-text {
+    width: 69%;
+    float: right;
+    font-family: Helvetica;
+}
+
+.recent-box-text h3 {
+    /* aka title */
+    display: inline;
+}
+
+.recent-box-text h6 {
+    /* aka description  */
+}
+
+.recent-box:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Column Divider */
+
+.col-divide {
+    border-left: 4px solid #1f1f1f;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 20px;
+}
+
+/* Form */
 
 .contact-form {
     width: 80%;
+    margin-left: 2%;
 }
 
-.contact-form p {
+.label-block {
+    margin: 0;
+    padding-top: 30px;
+    display: block;
+}
+
+.label-inline {
     margin: 0;
     padding-top: 30px;
 }
 
-input,select,option {
+input,select,textarea {
     border-radius: 5px;
-    padding: 5px;
-    font-family: "Comic Sans MS";
+    padding: 6px;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    border: 2px solid #7ad06c;
+}
+
+input:focus {
+    border: 2px solid #191919;
+}
+
+select:focus {
+    border: 2px solid #191919;
+}
+
+textarea:focus {
+    border: 2px solid #191919;
+}
+
+.form-inline  {
+    display: inline-block;
+    width: 40%;
 }
 
 .half-text {
-    display: inline-block;
+    width: 100%;
 }
 
 .wide-text {
     width: 80%;
 }
 
-.form-inline {
+.long-text {
+    height: 100px;
+    resize: none;
+    text-align: left;
+}
+
+/* Added GitHub thing */
+
+.github-info {
+    height: 100px;
+    width: 90%;
+    margin: 20px 0px 20px 0px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: -6px 6px;
+    padding: 8px;
+    font-family: Helvetica;
+    margin-left: 2%;
+}
+
+.github-logo {
+    height: 100%;
+    float: left;
+}
+
+.github-h1 {
     display: inline;
+    margin: auto;
+}
+
+.github-h6 {
+    display: inline;
+    margin: auto;
+}
+
+.github-a:link {
+    text-decoration: none;
+    color: #7ad06c;
+}
+
+.github-a:hover {
+    text-decoration: none;
+    color: #7ad06c;
+}
+
+.github-a:active {
+    text-decoration: none;
+    color: #7ad06c;
+}
+
+.github-a:visited {
+    text-decoration: none;
+    color: #7ad06c;
 }
