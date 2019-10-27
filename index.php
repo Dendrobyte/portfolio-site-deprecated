@@ -60,9 +60,9 @@
 
             <ul>
                 <li>It all started with <a href = "http://www.redstoneoinkcraft.com/">Oinkcraft</a></li>
-                <li>NYU Class of 2022</li>
-                <li>B.A. Computer Science</li>
-                <li>B.A. Language and Mind (Psycholinguistics)</li>
+                <li>Big fan of learning a variety of things</li>
+                <li>Seeking artistic outlets</li>
+                <li>Living like a candle</li>
             <ul>
 
             </ul>

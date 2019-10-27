@@ -47,3 +47,142 @@ table {
 }
 
 /* Start Custom Styles */
+
+body {
+    height: 100%;
+    background-color: #1f1f1f;
+}
+
+/* Navbar Styles */
+
+#main-navbar {
+    width: 100%;
+    background-color: #1f1f1f;
+    display: inline-block;
+    font-family: Helvetica;
+    font-weight: 600;
+    box-shadow: 0 0 8px;
+}
+
+
+.navbar-header {
+    color: #e8e8e8;
+    font-size: 20px;
+}
+
+.navbar-item {
+    display: inline;
+    font-size: 16px;
+    padding: 8px;
+    color: #cfcfcf;
+}
+
+.items-left {
+    float: left;
+    padding: 16px;
+}
+
+.items-right {
+    float: right;
+    padding: 16px;
+}
+
+/* General Web Pages */
+
+/* Banner Styles */
+
+#banner {
+    height: 20%;
+    margin-top: -1px;
+    width: 100%;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#banner-container {
+    padding: 1% 5% 4% 1%;
+}
+
+#page-title {
+    color: #e3e3e3;
+    font-size: 64px;
+}
+
+#page-subtitle {
+    color: white;
+    font-size: 32px;
+    padding: 1%;
+}
+
+#page-description {
+    color: white;
+    font-size: 16px;
+    width: 40%;
+    margin: auto;
+}
+
+/* Container Styles */
+
+#content-container {
+    background-color: #e8e8e8;
+    width: 50%;
+    margin: auto;
+    margin-top: -3%;
+    padding: .5%;
+}
+
+#dynamic-container {
+    background-color: #a42929;
+    padding: 1%;
+    font-family: Helvetica;
+}
+
+/* Portfolio Page - Dynamic Container Styles */
+
+.dynamic-navbar {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+.dynamic-navbar-item {
+    display: inline-block;
+    font-size: 24px;
+    width: 24%;
+    background-color: #e8e8e8;
+    font-family: Helvetica;
+}
+
+.dynamic-navbar-item p {
+    text-align: center;
+    padding: 2% 0;
+    background-color: #a42929;
+}
+
+.dynamic-content-container {
+    background-color: #a42929;
+    width: 100%;
+}
+
+.dynamic-content-box {
+    background-color: #e8e8e8;
+    width: 98%;
+    margin: 2% auto;
+    box-shadow: -4px 4px 0 #1f1f1f;
+}
+
+.dynamic-content-title {
+    text-align: left;
+    font-size: 32px;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.dynamic-content-description {
+    text-align: left;
+    font-size: 16px;
+    padding: 16px;
+}
+
+/* Monthly Projects Page - Dynamic Container Styles */
