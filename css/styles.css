@@ -99,7 +99,7 @@ body {
     font-family: Helvetica;
 }
 
-#banner-container {
+.banner-container {
     padding: 1% 5% 4% 1%;
 }
 
@@ -131,13 +131,13 @@ body {
     padding: .5%;
 }
 
+/* Portfolio Page - Dynamic Container Styles */
+
 #dynamic-container {
     background-color: #a42929;
     padding: 1%;
     font-family: Helvetica;
 }
-
-/* Portfolio Page - Dynamic Container Styles */
 
 .dynamic-navbar {
     display: block;
@@ -186,3 +186,61 @@ body {
 }
 
 /* Monthly Projects Page - Dynamic Container Styles */
+/* All are the same names, prefixed with 'mp-' for monthly projects */
+
+#mp-dynamic-container {
+    background-color: #7ad06c;
+    padding: 1%;
+    font-family: Helvetica;
+}
+
+.mp-dynamic-content-box-left {
+    background-color: #e8e8e8;
+    width: 30%;
+    padding: 1%;
+    margin: auto;
+    box-shadow: -4px 4px 0 #1f1f1f;
+    float: left;
+}
+
+.mp-dynamic-content-box-middle {
+    background-color: #e8e8e8;
+    width: 30%;
+    padding: 1%;
+    margin: auto;
+    margin-left: 2%;
+    box-shadow: -4px 4px 0 #1f1f1f;
+    display: inline-block;
+}
+
+.mp-dynamic-content-box-right {
+    background-color: #e8e8e8;
+    width: 30%;
+    padding: 1%;
+    margin: auto;
+    box-shadow: -4px 4px 0 #1f1f1f;
+    float: right;
+}
+
+.mp-dynamic-content-container:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.mp-dynamic-content-image img {
+    width: 100%;
+}
+
+.mp-dynamic-content-title {
+    text-align: center;
+    font-size: 24px;
+    padding: 4px;
+    font-weight: 600;
+}
+
+.mp-dynamic-content-description {
+    text-align: left;
+    font-size: 16px;
+    padding: 2px;
+}

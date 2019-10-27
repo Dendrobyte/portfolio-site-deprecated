@@ -15,6 +15,7 @@ $activeTab = 'Development';
 </div>
 
 <div class = "dynamic-content-container">
+    <!-- The above div might be the extra padding in the red area issue...? -->
     <div class = "dynamic-content-box">
         <div class = "dynamic-content-title">
             GitHub - @Dendrobyte

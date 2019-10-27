@@ -8,10 +8,10 @@
 <body>
 
     <div id = "index-navbar">
-        <span class = "index-navbar-item">Home</span>
-        <span class = "index-navbar-item">Projects</span>
-        <span class = "index-navbar-item">Portfolio</span>
-        <span class = "index-navbar-item">Markside</span>
+        <span class = "index-navbar-item"><a href = "#">Home</a></span>
+        <span class = "index-navbar-item"><a href = "/portfolio/portfolio">Projects</a></span>
+        <span class = "index-navbar-item"><a href = "/portfolio/monthly_projects">Monthly Projects</a></span>
+        <span class = "index-navbar-item"><a href = "/portfolio/markside">Markside</a></span>
     </div>
 
     <div id = "top-third-container">

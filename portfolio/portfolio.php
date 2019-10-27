@@ -21,7 +21,7 @@
     <body>
 
         <div id = "banner" class = "banner-portfolio">
-            <div id = "banner-container">
+            <div class = "banner-container">
                 <h1 id = "page-title">Portfolio</h1>
                 <h2 id = "page-subtitle"><i>"Jack of all trades, master of none"</i></h2>
                 <h3 id = "page-description">You can go ahead and check out my various projects, such as YouTube videos and Github respositories, below! Check out my monthly learning projects <a href = "/../monthly_projects/monthly_proj.php">here!</a></h3>
@@ -30,9 +30,6 @@
 
         <!-- This gets pushed up a little bit to be above the banner -->
         <div id = "content-container">
-            <?php
-            // Find some way to make this change dynamically... ???? https://stackoverflow.com/questions/9733900/refresh-single-page-php-element-using-button
-            ?>
             <div id = "dynamic-container">
                 <?php include 'portfolio_content.php'; ?>
             </div>
