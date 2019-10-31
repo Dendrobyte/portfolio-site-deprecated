@@ -9,14 +9,14 @@
 
     <div id = "index-navbar">
         <span class = "index-navbar-item"><a href = "#">Home</a></span>
-        <span class = "index-navbar-item"><a href = "/portfolio/portfolio">Projects</a></span>
+        <span class = "index-navbar-item"><a href = "/portfolio/portfolio">Portfolio</a></span>
         <span class = "index-navbar-item"><a href = "/portfolio/monthly_projects">Monthly Projects</a></span>
         <span class = "index-navbar-item"><a href = "/portfolio/markside">Markside</a></span>
     </div>
 
     <div id = "top-third-container">
         <img src = "./img/index/profile_circle.png" class = "bubble-picture">
-        <h1 class = "line">Heya! I'm Mark</h1>
+        <h1 class = "line">Hey There! I'm Mark</h1>
     </div>
 
     <!-- Make this width 80% | Also may be cleaner to just center these, or align them across the middle with the diamonds
@@ -78,13 +78,16 @@
             <div class = "recent-box">
                 <!-- Automatically grab your latest YouTube video here. Would have to be upon page load. -->
                 <?php
-                    $videoTitle = 'A Failed Hackathon';
+                    // Get the latest YouTube uploads
+                    include 'includes/getRecentVideo.php';
+
+                    $videoTitle = '';
                     $videoDescription = ""; // We'll do the longer ones later
                 ?>
                 <img src = "./img/index/failed-hackathon-thumb.jpg" class = "recent-posts-picture">
                 <div class = "recent-box-text">
                     <h3><?php echo $videoTitle; ?></h3>
-                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+                    <h6><?php echo $videoTitle; ?></h6>
                 </div>
             </div>
             <div class = "recent-box">

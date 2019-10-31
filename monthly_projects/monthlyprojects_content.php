@@ -1,20 +1,42 @@
+<div class = "mp-dynamic-content-container">
+
 <?php
-            /* While loop to fill various boxes
-             * classes for boxes for each third are l-box, m-box, and r-box
-             * All fields will be stored in database, and then reused if/when the entire container is reloaded */
-
-                // While there are entries in the database
-
-                // Create a new div with a respective box, checking div
-
-                // Upon being clicked, the following will be wiped and then to get back it'll just reload the page
+    // Open the connection
+    include '../includes/connection.php';
+    
+    // MySQL query
+    $query = "SELECT * FROM `monthly_projects`";
+    $result = mysqli_query($conn, $query);
+    
+    while($row = mysqli_fetch_assoc($result)) {
+        makeNewMonthlyProjectsBox($row['month'], $row['img_path'], $row['project_title'], $row['mini_description']);
+    }
+    
+    function makeNewMonthlyProjectsBox($month, $imgPath, $title, $miniDescription){
+        echo 
+            "<div class = \"mp-dynamic-content-box-left\">
+        <div class = \"mp-dynamic-content-title\">
+            $month
+        </div>
+        <div class = \"mp-dynamic-content-image\">
+            <img src = '$imgPath'>
+        </div>
+        <div class = \"mp-dynamic-content-title\">
+            $title
+        </div>
+        <div class = \"mp-dynamic-content-description\">
+           $miniDescription
+        </div>
+    </div>";
+    }
 
 ?>
 
-<!-- Static example for boxes -->
-
-<div class = "mp-dynamic-content-container">
+<!-- Static example for boxes
     <div class = "mp-dynamic-content-box-left">
+        <div class = "mp-dynamic-content-title">
+            September
+        </div>
         <div class = "mp-dynamic-content-image">
             <img src = "../img/index/duo-ros-thumb.jpg">
         </div>
@@ -27,6 +49,9 @@
     </div>
 
     <div class = "mp-dynamic-content-box-middle">
+        <div class = "mp-dynamic-content-title">
+            September
+        </div>
         <div class = "mp-dynamic-content-image">
             <img src = "../img/index/duo-ros-thumb.jpg">
         </div>
@@ -39,6 +64,9 @@
     </div>
 
     <div class = "mp-dynamic-content-box-right">
+        <div class = "mp-dynamic-content-title">
+            September
+        </div>
         <div class = "mp-dynamic-content-image">
             <img src = "../img/index/duo-ros-thumb.jpg">
         </div>
@@ -48,5 +76,6 @@
         <div class = "mp-dynamic-content-description">
            This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! This is a bunch of sentences! 
         </div>
-    </div>
+    </div>-->
+
 </div>

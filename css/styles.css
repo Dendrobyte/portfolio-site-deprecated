@@ -77,6 +77,17 @@ body {
     color: #cfcfcf;
 }
 
+.navbar-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-item:hover,.navbar-header:hover {
+    cursor: pointer;
+    background-color: #e8e8e8;
+    color: #1f1f1f;
+}
+
 .items-left {
     float: left;
     padding: 16px;
