@@ -1,0 +1,179 @@
+#markside-banner {
+    height: 10%;
+    margin-top: -2px;
+    width: 98%;
+    text-align: center;
+    font-family: Helvetica;
+    background-color: #2980b9;
+    padding: 1%;
+}
+
+#markside-title {
+    color: #cfcfcf;
+    font-size: 64px;
+    margin: 10px;
+}
+
+#markside-subtitle {
+    color: #cfcfcf;
+    font-size: 20px;
+}
+
+#markside-columns-container {
+    margin: 1% 10% 0 10%;
+    font-family: Helvetica;
+}
+
+/* Left (Main) Column Styles */
+
+#markside-left-column {
+    width: 70%;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.markside-blog-post {
+    background-color: #cfcfcf;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.markside-blog-post h1 {
+    font-weight: 400;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.markside-blog-post-date {
+    color: grey;
+    font-size: 12px;
+    display: inline;
+    text-align: right;
+}
+
+.markside-blog-post p {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+#markside-right-column {
+    background-color: #cfcfcf;
+    width: 25%;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Right (Sidebar) Column Styles */
+
+/* Styles for the login bubble, login form, and post-creation */
+.markside-login-bubble {
+    width: 4%;
+    background-color: #2980b9;
+    color: #1f1f1f;
+    position: absolute;
+    left: 8%;
+    top: 1.3%;
+    padding: 6px;
+    border-radius: 4px;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.markside-login-bubble:hover {
+    cursor: pointer;
+    color: #cfcfcf;
+}
+
+.markside-login-form {
+    background-color: #cfcfcf;
+    border-radius: 2px;
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    padding: 10px;
+    left: 1%;
+    top: 9%;
+    font-family: Helvetica;
+    text-align: center;
+    opacity: 0;
+}
+
+.markside-login-form input {
+    margin: 5px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 4px;
+}
+
+.markside-login-form button {
+    border-radius: 2px;
+    background-color: #1f1f1f;
+    color: #e8e8e8;
+    border: none;
+    margin-top: 2px;
+    padding: 3% 8%;
+}
+
+.markside-login-form button:hover {
+    cursor: pointer;
+}
+
+.markside-login-form button:active {
+    margin-top: 4px;
+}
+
+.markside-newpost-container {
+    text-align: left;
+    width: 30%;
+    margin: auto;
+    font-family: Helvetica;
+    background-color: #cfcfcf;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+
+.markside-newpost-container input,textarea {
+    width: 100%;
+    padding: 1%;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    resize: none;
+    border: none;
+}
+
+.markside-newpost-container input:focus,textarea:focus {
+    border: 2px solid #2980b9;
+    margin-top: 2px;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+.markside-newpost-container label {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.markside-newpost-container button {
+    color: #1f1f1f;
+    background-color: #2980b9;
+    border: 2px solid #1f1f1f;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.markside-newpost-container button:hover {
+    margin-top: 2px;
+    margin-bottom: -2px;
+    cursor: pointer;
+}

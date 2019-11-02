@@ -145,24 +145,30 @@ body {
 /* Portfolio Page - Dynamic Container Styles */
 
 #dynamic-container {
-    background-color: #a42929;
-    padding: 1%;
+    background-color: #1f1f1f;
     font-family: Helvetica;
+    padding-top: 1%;
 }
 
 .dynamic-navbar {
     display: block;
     text-align: center;
     width: 100%;
-    background-color: #e8e8e8;
+    background-color: #1f1f1f;
 }
 
 .dynamic-navbar-item {
     display: inline-block;
     font-size: 24px;
     width: 24%;
-    background-color: #e8e8e8;
     font-family: Helvetica;
+    box-shadow: inset 0px 0px 5px #1f1f1f;
+    color: #cfcfcf;
+}
+
+.dynamic-navbar-item:hover{
+    cursor: pointer;
+    color: #f1f1f1;
 }
 
 .dynamic-navbar-item p {
@@ -171,16 +177,31 @@ body {
     background-color: #a42929;
 }
 
+.nav-item-development {
+    box-shadow: inset 0px 0px 5px #1f1f1f;
+}
+
+.nav-item-arts {
+    box-shadow: inset 0px 0px 5px #1f1f1f;
+}
+
+.nav-item-communities {
+    box-shadow: inset 0px 0px 5px #1f1f1f;
+}
+
+.nav-item-resume {
+    box-shadow: inset 0px 0px 5px #1f1f1f;
+}
+
 .dynamic-content-container {
     background-color: #a42929;
-    width: 100%;
+    padding: 1%;
 }
 
 .dynamic-content-box {
     background-color: #e8e8e8;
     width: 98%;
     margin: 2% auto;
-    box-shadow: -4px 4px 0 #1f1f1f;
 }
 
 .dynamic-content-title {
