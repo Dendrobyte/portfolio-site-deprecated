@@ -1,5 +1,4 @@
-# portfolio-site
-Repo for my portfolio site
+# Mark's Portfolio Site
 
 My portfolio site, currently without domain, got its October goals completed! You can find (most) of the pages on this repository. Everything is kept locally, but I do store the password (hashed of course) directly within PHP so I some files are ignored :)
 
