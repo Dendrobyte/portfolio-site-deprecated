@@ -10,6 +10,11 @@ body {
 }
 
 /* Navbar Styles */
+.index-navbar-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #index-navbar {
     text-align: center;
     color: #fff;

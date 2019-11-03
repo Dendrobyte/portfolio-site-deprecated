@@ -47,3 +47,232 @@ table {
 }
 
 /* Start Custom Styles */
+
+body {
+    height: 100%;
+    background-color: #1f1f1f;
+}
+
+/* Navbar Styles */
+
+#main-navbar {
+    width: 100%;
+    background-color: #1f1f1f;
+    display: inline-block;
+    font-family: Helvetica;
+    font-weight: 600;
+    box-shadow: 0 0 8px;
+}
+
+
+.navbar-header {
+    color: #e8e8e8;
+    font-size: 20px;
+}
+
+.navbar-item {
+    display: inline;
+    font-size: 16px;
+    padding: 8px;
+    color: #cfcfcf;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-item:hover,.navbar-header:hover {
+    cursor: pointer;
+    background-color: #e8e8e8;
+    color: #1f1f1f;
+}
+
+.items-left {
+    float: left;
+    padding: 16px;
+}
+
+.items-right {
+    float: right;
+    padding: 16px;
+}
+
+/* General Web Pages */
+
+/* Banner Styles */
+
+#banner {
+    height: 20%;
+    margin-top: -1px;
+    width: 100%;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.banner-container {
+    padding: 1% 5% 4% 1%;
+}
+
+#page-title {
+    color: #e3e3e3;
+    font-size: 64px;
+}
+
+#page-subtitle {
+    color: white;
+    font-size: 32px;
+    padding: 1%;
+}
+
+#page-description {
+    color: white;
+    font-size: 16px;
+    width: 40%;
+    margin: auto;
+}
+
+/* Container Styles */
+
+#content-container {
+    background-color: #e8e8e8;
+    width: 50%;
+    margin: auto;
+    margin-top: -3%;
+    padding: .5%;
+}
+
+/* Portfolio Page - Dynamic Container Styles */
+
+#dynamic-container {
+    background-color: #1f1f1f;
+    font-family: Helvetica;
+    padding-top: 1%;
+}
+
+.dynamic-navbar {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #1f1f1f;
+}
+
+.dynamic-navbar-item {
+    display: inline-block;
+    font-size: 24px;
+    width: 24%;
+    font-family: Helvetica;
+    box-shadow: inset 0px 0px 5px #1f1f1f;
+    color: #cfcfcf;
+}
+
+.dynamic-navbar-item:hover{
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+.dynamic-navbar-item p {
+    text-align: center;
+    padding: 2% 0;
+    background-color: #a42929;
+}
+
+.nav-item-development {
+    box-shadow: inset 0px 0px 5px #1f1f1f;
+}
+
+.nav-item-arts {
+    box-shadow: inset 0px 0px 5px #1f1f1f;
+}
+
+.nav-item-communities {
+    box-shadow: inset 0px 0px 5px #1f1f1f;
+}
+
+.nav-item-resume {
+    box-shadow: inset 0px 0px 5px #1f1f1f;
+}
+
+.dynamic-content-container {
+    background-color: #a42929;
+    padding: 1%;
+}
+
+.dynamic-content-box {
+    background-color: #e8e8e8;
+    width: 98%;
+    margin: 2% auto;
+}
+
+.dynamic-content-title {
+    text-align: left;
+    font-size: 32px;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.dynamic-content-description {
+    text-align: left;
+    font-size: 16px;
+    padding: 16px;
+}
+
+/* Monthly Projects Page - Dynamic Container Styles */
+/* All are the same names, prefixed with 'mp-' for monthly projects */
+
+#mp-dynamic-container {
+    background-color: #7ad06c;
+    padding: 1%;
+    font-family: Helvetica;
+}
+
+.mp-dynamic-content-box-left {
+    background-color: #e8e8e8;
+    width: 30%;
+    padding: 1%;
+    margin: auto;
+    box-shadow: -4px 4px 0 #1f1f1f;
+    float: left;
+}
+
+.mp-dynamic-content-box-middle {
+    background-color: #e8e8e8;
+    width: 30%;
+    padding: 1%;
+    margin: auto;
+    margin-left: 2%;
+    box-shadow: -4px 4px 0 #1f1f1f;
+    display: inline-block;
+}
+
+.mp-dynamic-content-box-right {
+    background-color: #e8e8e8;
+    width: 30%;
+    padding: 1%;
+    margin: auto;
+    box-shadow: -4px 4px 0 #1f1f1f;
+    float: right;
+}
+
+.mp-dynamic-content-container:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.mp-dynamic-content-image img {
+    width: 100%;
+}
+
+.mp-dynamic-content-title {
+    text-align: center;
+    font-size: 24px;
+    padding: 4px;
+    font-weight: 600;
+}
+
+.mp-dynamic-content-description {
+    text-align: left;
+    font-size: 16px;
+    padding: 2px;
+}
